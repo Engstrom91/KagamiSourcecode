@@ -475,6 +475,10 @@ header .navbar {
 	background-color: #27536E;
 }
 
+.about-features-first {
+	background-color: #27536E;
+}
+
 .about-features p {
 	border-bottom: 1px solid #eee;
 	padding-bottom: 20px;
@@ -493,8 +497,19 @@ header .navbar {
 	padding-bottom:30px;
 }
 
+.best-features-first {
+	padding-top: 30px;
+	padding-bottom:30px;
+	color: #fff;
+}
+
 
 .best-features .container .row {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 60px;
+}
+
+.best-features-first .container .row {
 	border-bottom: 1px solid #eee;
 	padding-bottom: 60px;
 }
@@ -504,7 +519,18 @@ header .navbar {
 	overflow: hidden;
 }
 
+.best-features-first img {
+	width: 100%;
+	overflow: hidden;
+}
+
 .best-features h4 {
+	font-size: 17px;
+	color: #F03C3C;
+	margin-bottom: 20px;
+}
+
+.best-features-first h4 {
 	font-size: 17px;
 	color: #F03C3C;
 	margin-bottom: 20px;
@@ -516,6 +542,10 @@ header .navbar {
 }
 
 .best-features p {
+	margin-bottom: 25px;
+}
+
+.best-features-first p {
 	margin-bottom: 25px;
 }
 
